@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chivo+Mono:wght@100&family=Edu+NSW+ACT+Foundation&family=Fira+Sans&family=Josefin+Sans:ital,wght@1,500&family=Raleway:wght@100&family=Sedgwick+Ave+Display&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Roboto+Mono:ital,wght@0,300;0,400;1,300&family=Rubik:wght@300&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+        
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(231, 229, 229);
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-out;
+}
+.sidebar nav{
+   padding: 45px;
+   width: 15vh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vh;
+   padding-left: 38vh;
+}
+.container{
+display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(255, 0, 221); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around ;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   font-family: 'Source Code Pro', monospace;
+}
+.hello{
+ font-size: 90px;
+ font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 65px;
+    font-weight: bolder;
+}
+.about{
+    font-size: 50px;
+
+}
+.moreinfo{
+    font-family: 'Fira Sans', sans-serif; 
+    font-weight: bold
+    
+}
+.btn {
+    padding: 9px 14px;
+    border-radius: 15px;
+    background-color: rgb(68, 177, 177);
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 20px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+}
+.btn-sm{
+border-radius: 74px;
+font-size: 12px;
+margin: 10px -6px;
+}
+
+.devPic img{
+    height: 58vh;
+  
+}
+.contactForm{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 20px; 
+     padding-top: 100px;
+    /* margin-left: 190px;  */
+}
+.contactForm h1{
+    font-family: 'Source Code Pro', monospace; 
+    text-align: center;
+
+}
+.contactForm form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+    
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0px;
+}
+.blogContainer{
+    margin: 50px 50px;
+}
+
+.blogItems{
+    margin: 30px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.h1{
+    font-family: 'Source Code Pro';
+}
+ p{
+    font-family: 'Source Code Pro';
+}
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+ margin-top: 72px;
+}
+.intro p{
+    font-family: 'Source Code Pro';
+    margin: 12px;
+}
+.SkillContainer{
+  margin-top: 30px;
+}
+.SkillItem{
+    margin-top: 20px;
+
+}
+.Skill{
+    width: 265px;
+    height: 20px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundered{
+    
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-271px,0px);
+    position: absolute;
+}
+
+.HamBurger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 162px;
+}
+
+.MyProject{
+ padding-left: 25vh;
+}
+.MyProject h1{
+ padding-left: 25vh;
+ 
+}
+
+.ProjectInfo{
+   border-spacing: 20vh;
+   
+}
+.AllProject{
+    display: flex;
+    width: 20vh;
+
+}
+.Project1 #P1{
+    background-color: beige;
+    width: 250px;
+    height: 40vh;
+    border-color: burlywood;
+    border-style: dashed;
+    margin: 63px 2px -8px -172px;
+    
+
+}
+.Project1 #P1 p{
+    font-family: 'Source Code Pro';
+margin: 20px;
+}
+.Project2 #P2{
+   background-color: beige;
+   width: 250px;
+    height: 42vh;
+    border-width: 2px;
+    border-color: black;
+    border-style: dashed;
+    margin: 59px 16px 0vh 58vh;
+}
+
+.Project2 #P2 p{
+    font-family: 'Source Code Pro';
+    margin: 20px;
+}
+
+
+
+
+
